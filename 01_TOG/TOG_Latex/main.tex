@@ -1,0 +1,79 @@
+\documentclass[holdfloat]{MSC-TESO-01}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{relsize}
+\usepackage{amsfonts}
+\usepackage[english,spanish]{babel}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+\usepackage{subcaption}
+
+\usepackage{listings} 
+\lstset{
+     basicstyle=\fontsize{10}{10}\selectfont,
+     keywordstyle=\color{blue}
+}
+
+\graphicspath{{images/}{chapter02/images/}{chapter03/images/}{chapter04/images/}}
+
+\bibliographystyle{IEEEtran}
+
+
+% ---------------------------------------------------
+% Begin of Document
+% ---------------------------------------------------
+
+\begin{document}
+\sloppy
+\setlength{\baselineskip}{1\baselineskip}
+\selectlanguage{Spanish}
+% Information of the CsM student
+\author{José Luis Magaña Vázquez}
+%\cvu{000000}
+\director{Dr. José Francisco Cervantes Álvarez}
+%\director{Mtro. Luis Eduardo Pérez Bernal}
+\title{DESARROLLO DE UN MÓDULO DE VISIÓN COMPUTACIONAL PARA VEHÍCULOS AEREOS NO TRIPULADOS UTILIZANDO DEEP LEARNING}
+%\title{Recognition of Plant Diseases Using Convolutional Neural Networks}
+\FechaDocumento{2 de marzo de 2020}
+% Iteso shield
+\itesoshield{images/iteso.png}
+\maketitle
+%: -----------------------------------------------
+\fancypagestyle{plain}
+
+%\include{acknowledgements}  
+%\include{agradecimientos}
+%\include{dedication}
+%\include{dedicatoria}
+%\include{abstract}
+%\include{resumen}
+
+%: ----------------------- Table of contents ------------------------
+
+\setcounter{secnumdepth}{2} % organisational level that receives a numbers
+\setcounter{tocdepth}{2}    % print table of contents for level 2
+\tableofcontents            % print the table of contents
+% levels are: 0 - chapter, 1 - section, 2 - subsection, 3 - subsubsection
+
+%: ----------------------- list of figures/tables ------------------------
+
+\listoffigures	% print list of figures
+
+\listoftables  % print list of tables
+
+
+\mainmatterSU
+
+\include{capítulo1/cap01}
+\include{capítulo2/cap02}
+\include{capítulo3/cap03}
+%\include{chapter04/chapter04}
+%\include{chapter05/chapter05}
+%\include{chapter06/chapter06}
+
+\bibliography{biblio}
+
+\end{document}

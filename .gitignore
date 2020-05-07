@@ -1,4 +1,9 @@
 # Archives
 01_TOG/archive
 03_IDI/archive
+
+# Models
 03_IDI/IDI_II/Object detection/models
+
+# Datasets
+03_IDI/IDI_II/Convolutional_Neural_Networks/dataset

@@ -2,14 +2,14 @@
 
 
 \section{Aprendiendo a partir de datos}
-Existen varios acercamientos de aprendizaje máquina automático, pero uno de los acercamientos más exitosos ha sido el llamado aprendizaje basado en el gradiente. El modelo de aprendizaje calcula una función $Y^p=F\left(Z^p,W\right)$[3] donde $Z^p$ es la p-th patrón de entrada, $W$ representa la colección de parámetros ajustables en el sistema y  $Y^p$ puede ser interpretada como la etiqueta o clase del patrón $Z^p$, o la probabilidad asociada a cada clase a predecir. Es decir que a partir de una entrada se predice la clasificación deseada por medio de una función F.
+Existen varios acercamientos de aprendizaje máquina automático, pero uno de los acercamientos más exitosos ha sido el llamado aprendizaje basado en el gradiente. El modelo de aprendizaje calcula una función $\mathbf{y}^p=f\left(\mathbf{z}^p,\mathbf{W}\right)$[3] donde $\mathbf{z}^p$ es la p-th patrón de entrada, $\mathbf{W}$ representa la colección de parámetros ajustables en el sistema y  $\mathbf{y}^p$ puede ser interpretada como la etiqueta o clase de la entrada $\mathbf{z}^p$, o la probabilidad asociada a cada clase a predecir. Es decir que a partir de una entrada se predice la clasificación deseada por medio de una función $f$.
 
-$E^p=D\left(D^p,F\left(Z^p,W\right)\right)$ [3], es una función que mide la discrepancia o error entre $D^p$ el cuál es el valor correcto que deseamos predecir a partir del patrón de entrada $X^p$ y la predicción $Y^p$. Esto implica tener una base de datos con los patrones de entrada con su respectiva salida correcta para poder realizar esta operación con la cuál se entrena el modelo. Con el cálculo del error de cada predicción se puede calcular el promedio y obtener un error de entrenamiento $E_{train}\left(W\right)$ que se llamará función de costo o pérdida. Así muchos algoritmos de aprendizaje tratan de minimizar $E\left(W\right)$. 
+$E^p=D\left(\mathbf{d}^p,f\left(\mathbf{z}^p,\mathbf{W}\right)\right)$ [3], es una función que mide la discrepancia o error entre $\mathbf{d}^p$ el cuál es el valor correcto que deseamos predecir a partir del patrón de entrada $\mathbf{z}^p$ y la predicción $\mathbf{y}^p$. Esto implica tener una base de datos con los patrones de entrada con su respectiva salida correcta para poder realizar esta operación con la cuál se entrena el modelo. Con el cálculo del error de cada predicción se puede calcular el promedio y obtener un error de entrenamiento $E_{train}\left(\mathbf{W}\right)$ que se llamará función de costo o pérdida. Así muchos algoritmos de aprendizaje tratan de minimizar $E\left(W\right)$. 
 
 
 \section{Gradiente descenciente}
 El algoritmo de gradiente descendiente intenta minimizar la función de costo $E\left(W\right)$ a través de variaciones en los pesos $W$. Estas variaciones son introducidas a cada peso partir del gradiente de la función de perdida con respecto a los pesos. Pero para ello se tiene que cumplir que los parámetros de W son valores reales para los cual la función de costo es una función continua y diferenciable, de esta manera se introducen variaciones en cada parámetro de W iterativamente de la siguiente forma:
-$W_k=W_{k-1}-\epsilon\frac{\partial E\left(W\right)}{\partial W}$[3]
+$W_{(i,j)}=W_{(i,j)-1}-\epsilon\frac{\partial E\left(\mathbf{W}\right)}{\partial \mathbf{W}}$[3]
 Existen variaciones del gradiente descendiente siendo el presentado uno de los más simples.
 
 \section{Perceptrón}
@@ -21,7 +21,7 @@ Donde $f\left(x\right)$ se llama función de activación.
 El algoritmo del perceptrón busca obtener o aprender los pesos w tales que dados los datos de cada ejemplo de entrenamiento $x^k=\left[x_1^k ... x_j^k\right]$, se obtenga la correcta clasificación binaria $a^k$, donde $a^k$ será 1 o 0 en este caso. 
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=3in]{capítulo3/Perceptron.jpg}
+\includegraphics[width=\linewidth]{capítulo3/Perceptron.jpg}
 %http://blog.josemarianoalvarez.com/2018/06/10/el-perceptron-como-neurona-artificial/
 \caption{Modelo del perceptrón}
 \label{fig:perceptron}

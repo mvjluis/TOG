@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{itesoinvrep05}[2017/05/29 ITESO investigation report]
+\ProvidesClass{MSC-TESO-01}[2017/05/29 ITESO investigation report]
 
 \LoadClass[letterpaper,12pt,twoside]{book}
 
@@ -186,13 +186,13 @@
 	{\fontsize{14}{18}\selectfont \textls[-65]{Trabajo recepcional que para obtener el grado de}\par}
 	{\fontsize{14}{18}\selectfont \textls[-65]{Maestra en Sistemas Computacionales}}
 	\\[15pt]
-	\\
+	%\\[\baselineskip]
 	{\fontsize{14}{18}\selectfont Presenta: \@author \par}
 	%{\fontsize{14}{18}\selectfont CVU: \@cvu}
 	\\[12pt]
-	\\
+	\\[\baselineskip]
 	{\fontsize{14}{18}\selectfont Asesor: \@director}
-	\\[12pt]
+	%\\[12pt]
 
     \vfill
 
@@ -204,9 +204,9 @@
 	\newpage
 }
 
-\renewcommand{\maketitle}[0]{
+\renewcommand*{\maketitle}{
 	\makeitesocoverpage
-	\makeitesocoverpageenglish
+	%\makeitesocoverpageenglish
 	%\blankpage
 	%\makeitesotitle
 	%\vspace{-3.0em}

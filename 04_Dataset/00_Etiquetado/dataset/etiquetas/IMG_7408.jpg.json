@@ -1,0 +1,414 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 5152,
+        "width": 3864
+    },
+    "objects": [
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:54:46.783Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [],
+            "classTitle": "tree",
+            "points": {
+                "exterior": [
+                    [
+                        1377,
+                        1254
+                    ],
+                    [
+                        1876,
+                        1865
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:54:54.704Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [],
+            "classTitle": "tree",
+            "points": {
+                "exterior": [
+                    [
+                        935,
+                        581
+                    ],
+                    [
+                        1502,
+                        1186
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:55:01.222Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "Tree",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:55:01.605Z",
+                    "updatedAt": "2020-05-14T19:55:01.605Z"
+                }
+            ],
+            "classTitle": "tree",
+            "points": {
+                "exterior": [
+                    [
+                        2874,
+                        1379
+                    ],
+                    [
+                        3266,
+                        1859
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:55:16.309Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "Tree",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:55:16.796Z",
+                    "updatedAt": "2020-05-14T19:55:16.796Z"
+                }
+            ],
+            "classTitle": "tree",
+            "points": {
+                "exterior": [
+                    [
+                        916,
+                        1741
+                    ],
+                    [
+                        1502,
+                        2264
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:55:34.748Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "Tree",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:55:37.373Z",
+                    "updatedAt": "2020-05-14T19:55:37.373Z"
+                }
+            ],
+            "classTitle": "tree",
+            "points": {
+                "exterior": [
+                    [
+                        2075,
+                        307
+                    ],
+                    [
+                        2823,
+                        887
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:55:46.537Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "Tree",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:55:47.205Z",
+                    "updatedAt": "2020-05-14T19:55:47.205Z"
+                }
+            ],
+            "classTitle": "tree",
+            "points": {
+                "exterior": [
+                    [
+                        561,
+                        1716
+                    ],
+                    [
+                        953,
+                        2040
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:56:02.798Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "Tree",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:56:05.317Z",
+                    "updatedAt": "2020-05-14T19:56:05.317Z"
+                }
+            ],
+            "classTitle": "tree",
+            "points": {
+                "exterior": [
+                    [
+                        1639,
+                        3823
+                    ],
+                    [
+                        2013,
+                        4141
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:56:16.584Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "foreground",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:56:18.630Z",
+                    "updatedAt": "2020-05-14T19:56:18.630Z"
+                }
+            ],
+            "classTitle": "foreground",
+            "points": {
+                "exterior": [
+                    [
+                        1745,
+                        930
+                    ],
+                    [
+                        2038,
+                        1236
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:56:24.612Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "foreground",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:56:25.808Z",
+                    "updatedAt": "2020-05-14T19:56:25.808Z"
+                }
+            ],
+            "classTitle": "foreground",
+            "points": {
+                "exterior": [
+                    [
+                        716,
+                        1336
+                    ],
+                    [
+                        1053,
+                        1647
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:56:30.108Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "foreground",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:56:30.999Z",
+                    "updatedAt": "2020-05-14T19:56:30.999Z"
+                }
+            ],
+            "classTitle": "foreground",
+            "points": {
+                "exterior": [
+                    [
+                        230,
+                        2102
+                    ],
+                    [
+                        492,
+                        2308
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:56:37.888Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "foreground",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:56:38.690Z",
+                    "updatedAt": "2020-05-14T19:56:38.690Z"
+                }
+            ],
+            "classTitle": "foreground",
+            "points": {
+                "exterior": [
+                    [
+                        436,
+                        2775
+                    ],
+                    [
+                        704,
+                        3000
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:56:47.660Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "foreground",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:56:48.851Z",
+                    "updatedAt": "2020-05-14T19:56:48.851Z"
+                }
+            ],
+            "classTitle": "foreground",
+            "points": {
+                "exterior": [
+                    [
+                        2362,
+                        4028
+                    ],
+                    [
+                        2624,
+                        4265
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:57:12.501Z",
+            "updatedAt": "2020-05-14T19:57:30.290Z",
+            "tags": [
+                {
+                    "name": "Tree",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:57:16.737Z",
+                    "updatedAt": "2020-05-14T19:57:16.737Z"
+                }
+            ],
+            "classTitle": "tree",
+            "points": {
+                "exterior": [
+                    [
+                        2898,
+                        2532
+                    ],
+                    [
+                        3229,
+                        2850
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "mvjluis",
+            "createdAt": "2020-05-14T19:57:29.920Z",
+            "updatedAt": "2020-05-14T19:57:37.074Z",
+            "tags": [
+                {
+                    "name": "Tree",
+                    "value": null,
+                    "labelerLogin": "mvjluis",
+                    "createdAt": "2020-05-14T19:57:30.813Z",
+                    "updatedAt": "2020-05-14T19:57:30.813Z"
+                }
+            ],
+            "classTitle": "tree",
+            "points": {
+                "exterior": [
+                    [
+                        1371,
+                        3168
+                    ],
+                    [
+                        1782,
+                        3542
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

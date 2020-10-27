@@ -1,0 +1,31 @@
+Preprocesamiento:
+
+
+
+
+
+
+
+
+
+
+1) Resize image input
+2) Resize bbox input
+
+Modelo:
+	"Feature Map"
+3) Tomar VGG16 (preentrenado sin usar las capas full connected) [Para generar el "feature map"]
+	"RPN"
+4) La salida de VGG16 (50x50x512) alimenta a un generador de "anchor boxes".
+	9 "anchor box" son generadas por cada punto es decir 50x50x512 podrían ser generadas pero se ignoran las que quedan fuera de la imagen.
+	Los "anchor box" son de diferentes tamaños y escala 1:1, 1:2, 2:2
+	Se generan cierta cantidad de anchor points sobre los que se generaran los anchor boxes.
+	Calculate the IoU para cada uno de los "anchor box" y si es mayor a cierto trheshold se coloca la etiqueta si es un objeto o no.
+
+5) El "RPN" Genera las propuestas de bounding box (las coordenadas) y la predicción si es un objeto o no
+
+6) A partir de los "anchor box generados" y las predicciones del PRN se calcula la función de pérdida de los anchor box.
+
+7) De las predicciones de RPN se pasa por non-maximum supression para obtener una menor cantidad de predicciones.
+
+8) Esos samples se pasan por la red que da la clasificación de la región propuesta.

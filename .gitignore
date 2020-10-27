@@ -7,3 +7,11 @@
 
 # Datasets
 03_IDI/IDI_II/Convolutional_Neural_Networks/dataset
+
+# Checkpoints of Jupyter notebook
+**/.ipynb_checkpoints
+
+# Others
+01_TOG/TOG_Chapters_Info
+02_Lecturas/artculossugeridos/To_Read
+02_Lecturas/TerminosEntender.txt
